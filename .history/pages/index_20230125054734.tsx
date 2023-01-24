@@ -7,7 +7,9 @@ import Experience from '../components/Experiences/Experience';
 import Skills from '../components/Skill/Skills';
 import Projects from '../components/Projects';
 import ContactMe from '../components/ContactMe';
-
+import Link from 'next/link';
+import Image from 'next/image';
+import LOGO from '../public/LOGO.jpg';
 
 
 const Home: NextPage = () => {
@@ -19,7 +21,7 @@ const Home: NextPage = () => {
         <title>Blockchain Bazz</title>
       </Head>
 
-      <div className='container mx-auto'>
+      <div className='container'>
         <Header />
 
         <section id='hero' className='snap-start'>

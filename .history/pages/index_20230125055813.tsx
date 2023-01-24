@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <title>Blockchain Bazz</title>
       </Head>
 
-      <div className='container mx-auto'>
+      <div className='container mx-'>
         <Header />
 
         <section id='hero' className='snap-start'>

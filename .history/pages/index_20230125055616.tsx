@@ -9,17 +9,16 @@ import Projects from '../components/Projects';
 import ContactMe from '../components/ContactMe';
 
 
-
 const Home: NextPage = () => {
-  
-  return (
-    <div className='bg-cyan-300 text-gray h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar-track-gray-500 scrollbar-thumb-red-500 z-0 bottom-5  items-center 
-      '>
-      <Head>
-        <title>Blockchain Bazz</title>
-      </Head>
 
-      <div className='container mx-auto'>
+return (
+<div className='bg-cyan-300 text-gray h-screen flex flex-col items-center justify-center  overflow-y-scroll overflow-x-hidden scrollbar-track-gray-500 scrollbar-thumb-red-500 z-0 bottom-5 
+   '>
+<Head>
+<title>Blockchain Bazz</title>
+</Head>
+
+      <div className='container'>
         <Header />
 
         <section id='hero' className='snap-start'>
